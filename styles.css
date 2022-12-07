@@ -15,6 +15,14 @@ body {
   --white: white;
 }
 
+#Test {
+  --h1-red: rgb(183, 130, 130);
+}
+
+#Test {
+  color: var(--h1-red);
+}
+
 .one {
   color: var(--red);
   background-color: var(--green);
@@ -40,9 +48,15 @@ body {
   background-color: var(--white);
   border-color: 2px dashed var(--green)
 }
-.sixth {
-  --blue: blue;
-  background-color: var(--green);
+
+.six {
+  --six-slik: yellow;
+  color: var(--six-slik);
+  background-color: var(--six-slik);
   color: var(--red);
   padding: 10px;
+}
+
+p {
+  background-color: var(--red);
 }
